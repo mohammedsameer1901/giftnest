@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GiftNest - Shop Now</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <h1>GiftNest</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#stationery">Stationery</a></li>
+        <li><a href="#gifts">Gifts</a></li>
+        <li><a href="#greeting-cards">Greeting Cards</a></li>
+        <li><a href="#cart">Cart</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h2>Your One-Stop Shop for Stationery, Gifts, and Greeting Cards</h2>
+    <p>Shop exclusive items perfect for every occasion.</p>
+    <a href="#products" class="btn">Start Shopping</a>
+  </section>
+
+  <!-- Products Section -->
+  <section id="products">
+    <h2>Our Products</h2>
+    <div class="product-list">
+      <div class="product">
+        <h3>Notebook</h3>
+        <p>Price: $5</p>
+        <button onclick="addToCart('Notebook', 5)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Gift Box</h3>
+        <p>Price: $15</p>
+        <button onclick="addToCart('Gift Box', 15)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Greeting Card</h3>
+        <p>Price: $3</p>
+        <button onclick="addToCart('Greeting Card', 3)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Notebook</h3>
+        <p>Price: $5</p>
+        <button onclick="addToCart('Notebook', 5)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Gift Box</h3>
+        <p>Price: $15</p>
+        <button onclick="addToCart('Gift Box', 15)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Greeting Card</h3>
+        <p>Price: $3</p>
+        <button onclick="addToCart('Greeting Card', 3)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Notebook</h3>
+        <p>Price: $5</p>
+        <button onclick="addToCart('Notebook', 5)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Gift Box</h3>
+        <p>Price: $15</p>
+        <button onclick="addToCart('Gift Box', 15)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Greeting Card</h3>
+        <p>Price: $3</p>
+        <button onclick="addToCart('Greeting Card', 3)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Notebook</h3>
+        <p>Price: $5</p>
+        <button onclick="addToCart('Notebook', 5)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Gift Box</h3>
+        <p>Price: $15</p>
+        <button onclick="addToCart('Gift Box', 15)">Add to Cart</button>
+      </div>
+      <div class="product">
+        <h3>Greeting Card</h3>
+        <p>Price: $3</p>
+        <button onclick="addToCart('Greeting Card', 3)">Add to Cart</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart">
+    <h2>Your Cart</h2>
+    <div id="cartItems"></div>
+    <div id="cartSummary">
+      <p>Total: $<span id="totalAmount">0</span></p>
+      <button class="btn" onclick="checkout()">Checkout</button>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2024 GiftNest. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
